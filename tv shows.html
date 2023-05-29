@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tv shows</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+        margin: 0px;
+     }
+     .body{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .navbar{
+        width: 100%;
+        height: 50px;
+        background-color: black;
+     }
+     .navbar-container{
+      display: flex;
+      align-items: center;
+      padding: 0 50px;
+      background-color: black;
+      height: 100%;
+      color: green;
+      }
+      .logo-container{
+      flex: 1;
+      }
+      .logo{
+      font-family: fantasy;
+      color: ghostwhite;
+      align-items: center;
+      }
+      .sidebar{
+      width: 50px;
+      height: 100%;
+      background-color:black;
+      position: fixed;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      padding-top: 60px;
+      }
+      .container{
+      background-color: #151515;
+      height: 100vh;
+      color: white;
+      }
+      .container-box{
+        margin-left: 50px;
+        
+      }
+      .featured-content{
+        width: 100%;
+        height: 70vh;
+      }
+      .featured-content-tv-show{
+        width: 100%;
+        height: 70vh;
+     }
+     .tv-show-list-container{
+        background-color: blueviolet;
+     }
+     .tv-show-list-title{
+        padding-top: 20px;
+        margin-left: 30px;
+     }
+     .tv-show-list-wrapper{
+        position: relative;
+     }
+     .pemiering-list{
+        display: flex;
+        align-items: center;
+        height: 300px;
+        
+     }
+     .premiering-tv-show{
+        margin-left: 10px;
+     }
+     .premiering-tv-show1{
+      margin-right: 20px;
+     }
+
+     .premiering-tv-show-img{
+        width: 240px;
+        height: 190px;
+     }
+     .premiering-tv-show-date{
+        width: 300px;
+        color: purple;
+     }
+     .premiering-tv-show-button{
+        color: blue;
+     }
+     .premiering-tv-show-category{
+        color: black;
+     }
+     .premiering-tv-show:hover .premiering-tv-show-img{
+        transform: scale(1.1);
+     }
+     .premiering-tv-show1:hover .premiering-tv-show-img{
+      transform: scale(1.1);
+     }
+     .coming-soon-list{
+        display: flex;
+        align-items: center;
+        height: 300px;
+     }
+     .coming-soon-tv-show{
+        margin-left: 20px;
+     }
+     .coming-soon-tv-show1{
+      margin-right: 20px;
+     }
+     .coming-soon-tv-show1:hover .coming-soon-tv-show-img{
+      transform: scale(1.1);
+     }
+     .coming-soon-tv-show-img{
+        width: 240px;
+        height: 190px;
+     }
+     .coming-soon-tv-show-category{
+        color: black;
+     }
+     .coming-soon-tv-show:hover .coming-soon-tv-show-img{
+        transform: scale(1.1);
+     }
+     .footer{
+        margin-left: 90px;
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding-top: 20px;
+        background-color: black;
+        
+      }
+      .col-1{
+        margin-left: 20px;
+      }
+      .col-2{
+        margin-left: 20px;
+      }
+      .col-3{
+        margin-left: 20px;
+      }
+      .col-4{
+        margin-left: 20px;
+      }
+    </style>
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">W.B        TV SHOWS</h1></div>
+            <div class="menu-container">
+                <a class="menu-list-item" href="TV Show Information.html">TV Show Information</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="sidebar"></div>
+    <div class="container">
+        <div class="container-box">
+            <div class="featured-content">
+               <img class="featured-content-tv-show" src="real house wives 2.jpg" alt="real house wives">
+
+            </div>
+            <div class="tv-show-list-container">
+                <h1 class="tv-show-list-title">PREMIERING NOW</h1>
+                <div class="tv-show-list-wrapper">
+                    <div class="premiering-list">
+                        <div class ="premiering-tv-show">
+                            <img class="premiering-tv-show-img" src="Wednesday.png 3.png" alt="avatar">
+                            <span class="premiering-tv-show-title">Wednesday</span>
+                            <button class="premiering-tv-show-button">Watch</button>
+                            <span class="premiering-tv-show-category">Supernatural</span>
+
+                        </div>
+                        <div class ="premiering-tv-show">
+                            <img class="premiering-tv-show-img" src="vampire diaries 2.webp" alt="moana">
+                            <span class="premiering-tv-show-title">vampire-diaries</span>
+                            <button class="premiering-movie-button">Watch</button>
+                            <span class="premiering-tv-show-category">Supernatural</span>
+
+                         </div>
+                        <div class ="premiering-tv-show">
+                            <img class="premiering-tv-show-img" src="rhythm n flow 2.jpg" alt="aladdin">
+                            <span class="premiering-tv-show-title">Rhythm n Flow</span>
+                            <button class="premiering-tv-show-button">Watch</button>
+                            <span class="premiering-tv-show-category">Musical</span>
+
+                        </div>
+                          <div class ="premiering-tv-show">
+                            <img class="premiering-tv-show-img" src="siren.jpg" alt="smurfs">
+                            <span class="premiering-tv-show-title">Legacies</span>
+                            <button class="premiering-tv-show-button">Watch</button>
+                            <span class="premiering-tv-show-category">Fantasy Drama</span>
+
+                        </div>
+                        <div class ="premiering-tv-show1">
+                            <img class="premiering-tv-show-img" src="twilight.jpg" alt="little mermaid">
+                            <span class="premiering-tv-show-title">Twilight</span>
+                            <button class="premiering-tv-show-button">Watch</button>
+                            <span class="premiering-tv-show-category">Supernatural</span>
+                        </div>
+
+                    </div>    
+                </div>
+                <h2 class="tv-show-list-title">COMING SOON</h2>
+                <div class="coming-soon-list">
+                    <div class ="coming-soon-tv-show">
+                      <img class="coming-soon-tv-show-img" src="euphoria.jpg" alt="little mermaid">
+                      <span class="coming-soon-tv-show-title">Euphoria</span>
+                      <span class="coming-soon-tv-show-date"></span>
+                      <p class="coming-soon-tv-show-date">18-01-2023</p>
+                      <span class="coming-soon-tv-show-category">Drama</span>
+                    </div>
+                    <div class ="coming-soon-tv-show">
+                      <img class="coming-soon-tv-show-img" src="the kardashians 2.jpg" alt="little mermaid">
+                      <span class="coming-soon-tv-show-title">Little mermaid</span>
+                      <span class="coming-soon-tv-show-date"></span>
+                      <p class="coming-sooon-tv-show-date">19-02-2023</p>
+                      <span class="coming-soon-tv-show-category">Reality</span>
+                    </div>
+                    <div class ="coming-soon-tv-show">
+                      <img class="coming-soon-tv-show-img" src="the four.jpg" alt="little mermaid">
+                      <span class="coming-soon-tv-show-title">The Four</span>
+                      <span class="coming-soon-tv-show-date"></span>
+                      <p class="coming-sooon-tv-show-date">23-02-2023</p>
+                      <span class="coming-soon-tv-show-category">Musical</span>
+                    </div>
+                    <div class ="coming-soon-tv-show">
+                       <img class="coming-soon-tv-show-img" src="game of thrones.jpg" alt="little mermaid">
+                       <span class="coming-soon-tv-show-title">Game of Thrones</span>
+                       <span class="coming-soon-tv-show-date"></span>
+                       <p class="coming-sooon-tv-show-date">02-03-2023</p>
+                       <span class="coming-soon-tv-show-category">Action</span>
+                    </div>
+                    <div class ="coming-soon-tv-show1">
+                      <img class="coming-soon-tv-show-img" src="legacies.jpg" alt="little mermaid">
+                      <span class="coming-soon-tv-show-title">Legacies</span>
+                      <span class="coming-soon-tv-show-date"></span>
+                      <p class="coming-sooon-tv-show-date">05-03-2023</p>
+                      <span class="coming-soon-tv-show-category">Supernatural Fiction</span>
+                    </div>
+                </div>
+               
+
+
+                
+            </div>
+        </div>
+        <div class="footer">
+         <div class="col-1">Contact Us</div>
+         <div class="col-2">Facebook</div>
+         <div class="col-3">Instagram</div>
+         <div class="col-4">Youtube</div>
+
+       </div>
+
+    </div>
+    
+</body>
+</html>
